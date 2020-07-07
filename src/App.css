@@ -2,37 +2,92 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.screenHeader {
+  height: 50px;
+  padding-top: 25px;
+  width: 40%;
+  margin-left: 28%;
+  text-align: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backButton {
+  background: none;
+  border: none;
+  font-size: 170%;
+  color: lightgray;
+  font-weight: bold;
+  float: left;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.backButton:hover {
+  color: darkgray;
+}
+
+.skipButton {
+  background: none;
+  border: none;
+  font-size: 110%;
+  color: lightgray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.skipButton:hover {
+  color: darkgray;
+}
+
+.headerText {
+  font-size: 300%;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.selectionInstruction {
+  font-size: 115%;
+  color: dimgrey;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30%;
+  margin-bottom: 25px;
+}
+
+.selectionForm {
+  text-align: left;
+  font-size: 150%;
+  width:40%;
+  margin-left: 31%;
+}
+
+.selectionLabel {
+  margin-right: 15px;
+}
+
+.selectionOption {
+  margin-bottom: 30px;
+}
+
+.privacyOption {
+  margin-left: -1%;
+}
+
+.privacyLabel {
+  font-size: 75%;
+  margin-left: 5px;
+}
+
+.continueButton {
+  background-image: linear-gradient(to right, cornflowerblue, lightskyblue);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: 500;
+  border-width: 0px;
+  border-radius: 15px;
+  font-size: 90%;
+  height: 50px;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 1%;
+  padding-top:4px;
+  cursor: pointer;
 }
